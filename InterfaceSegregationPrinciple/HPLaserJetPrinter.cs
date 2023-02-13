@@ -1,4 +1,5 @@
-﻿namespace InterfaceSegregationPrinciple
+﻿using System;
+namespace InterfaceSegregationPrinciple
 {
     public class HPLaserJetPrinter : IPrinterTasks, IFaxTasks,IPrintDuplexTasks
     {
